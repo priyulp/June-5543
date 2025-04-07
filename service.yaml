@@ -3,7 +3,7 @@ kind: Service
 metadata:
   name: webapp-service
 spec:
-  type: LoadBalancer
+  type: NordPort
   selector:
     app: webapp
   ports:
