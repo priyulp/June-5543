@@ -59,5 +59,18 @@ spec:
   - protocol: TCP
     port: 80
     targetPort: 80
-  type: ClusterIP
+  type: Load Balancer
+---
+piVersion: v1
+kind: Service
+metadata:
+  name: webapp-green-svc
+spec:
+  selector:
+    app: webapp
+    version: green
+  ports:
+    - port: 80
+      targetPort: 80
+  type: LoadBalancer
 
