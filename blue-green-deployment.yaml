@@ -17,7 +17,8 @@ spec:
     spec:
       containers:
       - name: webapp
-        image: my-image:v1
+        image: image: nginx:1.25
+
         ports:
         - containerPort: 80
 
@@ -40,7 +41,8 @@ spec:
     spec:
       containers:
       - name: webapp
-        image: my-image:v2
+        image: image: nginx:1.25
+
         ports:
         - containerPort: 80
 
