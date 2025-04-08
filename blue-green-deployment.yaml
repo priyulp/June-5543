@@ -41,7 +41,7 @@ spec:
     spec:
       containers:
       - name: webapp
-        image: httpd:2.4
+        image: nginx:alpine
 
         ports:
         - containerPort: 80
