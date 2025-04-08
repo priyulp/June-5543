@@ -54,7 +54,7 @@ metadata:
 spec:
   selector:
     app: webapp
-    version: green # Initially points to BLUE
+    version: blue # Initially points to BLUE
   ports:
   - protocol: TCP
     port: 80
