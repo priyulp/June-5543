@@ -41,7 +41,7 @@ spec:
     spec:
       containers:
       - name: webapp
-        image: nginx:1.25
+        image: Apache2
 
         ports:
         - containerPort: 80
